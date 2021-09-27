@@ -13493,7 +13493,7 @@ Sticky Menu
 .dia-home {
   margin: 0;
   padding: 0;
-  color: #585476;
+  color: #2A9A4E;
   font-size: 16px;
   overflow-x: hidden;
   line-height: 1.667;
@@ -13979,7 +13979,7 @@ div#preloader {
   margin-right: 20px;
   border-radius: 100%;
   transition: 0.3s all ease-in-out;
-  background-color: #5409d6;
+  background-color: #2A9A4E;
 }
 
 .dia-banner-section .dia-banner-content .dia-banner-btn .dia-play-btn i {
@@ -13988,7 +13988,7 @@ div#preloader {
 
 .dia-banner-section .dia-banner-content .dia-banner-btn .dia-play-btn:hover {
   background-image: none;
-  background-color: #ff6700;
+  background-color: #EC6B2F;
 }
 
 .dia-banner-section .dia-banner-content .dia-banner-btn .dia-abt-btn {
@@ -13999,11 +13999,11 @@ div#preloader {
   line-height: 70px;
   border-radius: 40px;
   font-family: "Poppins";
-  background-color: #ff6700;
+  background-color: #EC6B2F;
 }
 
 .dia-banner-section .dia-banner-content .dia-banner-btn .dia-abt-btn:before {
-  background-color: #5409d6;
+  background-color: #2A9A4E;
 }
 
 .dia-banner-section .cd-headline.clip span {
@@ -14150,7 +14150,7 @@ div#preloader {
   margin-top: 10px;
   line-height: 50px;
   border-radius: 40px;
-  background-color: #390ed2;
+  background-color: #2A9A4E;
 }
 
 .dia-service-section .dia-service-btn .dia-service-more a {
@@ -14163,7 +14163,7 @@ div#preloader {
 }
 
 .dia-service-section .dia-service-btn .dia-service-more:before {
-  background-color: #ff6700;
+  background-color: #EC6B2F;
 }
 
 .dia-service-section .dia-service-review {
@@ -14176,7 +14176,7 @@ div#preloader {
 
 .dia-service-section .dia-service-review .dia-service-rate li {
   font-size: 14px;
-  color: #f7c903;
+  color: #FECE05;
 }
 
 .dia-service-section .dia-service-review .dia-service-rate-text {
@@ -14184,7 +14184,7 @@ div#preloader {
 }
 
 .dia-service-section .dia-service-review .dia-service-rate-text span {
-  color: #282350;
+  color: #2A9A4E;
   font-weight: 700;
 }
 
