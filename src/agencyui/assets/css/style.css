@@ -14117,7 +14117,7 @@ div#preloader {
 .dia-service-section .dia-service-details .dia-service-item {
   width: 50%;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .dia-service-section .dia-service-details .dia-service-item h3 {
@@ -15028,7 +15028,7 @@ div#preloader {
 .dia-newslatter-section .dia-newslatter-content {
   border-radius: 30px;
   background-color: #fff;
-  padding: 55px 55px 65px 75px;
+  padding: 55px 55px 55px 55px;
 }
 
 .dia-newslatter-section .dia-newslatter-content .dia-newslatter-text h3 {
@@ -15066,7 +15066,7 @@ div#preloader {
 .dia-newslatter-section .dia-newslatter-content .dia-newslatter-form .nws-button button {
   color: #fff;
   height: 50px;
-  width: 140px;
+  width: 210px;
   border: none;
   font-weight: 700;
   border-radius: 5px;
@@ -17697,4 +17697,13 @@ SaaSio - HR Management
 }
 .sa-contact-inner-btn {
   width: 100%;
+}
+
+.row1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /*margin-right: -25px;*/
+  margin-left: 75px;
 }
