@@ -1,29 +1,29 @@
 
 #agent-creation-form {
   padding-top: 140px;
-  
+
 }
 
 
 
 /* Header Text Styles */
 h2 {
-    font-size: '43px';
+    font-size: 43px;
 }
 .divider {
-    width: '100px';
-    height: '50px';
-    border: 'none';
-    background-color: '#000';
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #000;
 }
 #header-text {
-    font-size: '43px !important';
-    width: 'auto';
+    font-size: 43px !important;
+    width: auto;
     padding: 0;
 }
 
 p .sub-header-text {
-    width: '300px';
+    width: 300px;
 
 }
 
@@ -31,7 +31,7 @@ p .sub-header-text {
 
 /* The radio */
 .radio {
- 
+
      display: block;
     position: relative;
     padding-left: 30px;
@@ -54,7 +54,7 @@ p .sub-header-text {
 /* Create a custom radio button */
 /* The radio */
 .radio {
- 
+
      display: block;
     position: relative;
     padding-left: 30px;
@@ -97,7 +97,7 @@ p .sub-header-text {
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .radio-group {
-    width: '200px';
+    width: 200px;
 }
 .checkround:after {
     content: "";
@@ -118,6 +118,6 @@ p .sub-header-text {
     height: 12px;
     border-radius: 50%;
     background:#f85d20;
-    
- 
+
+
 }
