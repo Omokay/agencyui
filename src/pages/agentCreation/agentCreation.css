@@ -4,19 +4,75 @@
 
 }
 
+#flex-back-button {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    padding: 0;
+    align-items: center;
+
+}
+
+#back-to-home-text, #back-to-home-text2 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: black;
+}
+
+
+input[type=checkbox],
+input[type='text'],
+input[type='email'],
+input[type='radio'],
+input[name='select'],
+input[type='password'],
+textarea{
+    width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    border-color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+/*    Set  Input Text Styles*/
+label {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+#radio-btn1, #radio-btn2, #radio-btn3, #radio-btn4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#state-select {
+    width: 400px;
+    max-width: 400px;
+    height: 40px;
+    padding: 0;
+    margin: 0 auto;
+    color: gray;
+}
 
 
 /* Header Text Styles */
-h2 {
+h2{
     font-size: 43px;
+    color: black;
+}
+p, div {
+    color: gray;
 }
 .divider {
     width: 80px;
-    height: 10px;
+    height: 6px;
     border: none;
     background-color: #f85d20;
 }
-#header-text {
+#header-text, #header-text2 {
     font-size: 43px !important;
     width: auto;
     margin-top: 20px;
@@ -24,7 +80,7 @@ h2 {
     padding: 0;
 }
 
-p .sub-header-text {
+#sub-header-text, #sub-header-text2 {
     width: 300px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -63,8 +119,11 @@ p .sub-header-text {
     position: relative;
     padding-left: 30px;
     margin-bottom: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -125,3 +184,40 @@ p .sub-header-text {
 
 
 }
+
+#agg-submit-btn, #submit-btn {
+    width: 250px;
+    height: 50px;
+    border: none;
+    background:#f85d20;
+    color: #f5f2f1;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 0.5s ease-in;
+}
+
+#agg-submit-btn:hover, #submit-btn:hover{
+   cursor: pointer;
+   background-color: #07532d;
+   color: white;
+}
+
+
+#flex-back-button, #flex-back-button2 {
+    color: #f85d20;
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    align-items: center;
+
+
+}
+
+.nav-link:hover {
+    border: none;
+    color: #f85d20;
+}
+
+
+
+

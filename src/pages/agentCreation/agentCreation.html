@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="agentCreation.css">
+
 
     <!-- FONT AWESOME TO SHOW ICONS -->
 <!--    <link rel="stylesheet" href="../../assets/css/fontawesome-all.css">-->
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../../assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="../../assets/css/owl.carousel.css">
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="agentCreation.css">
 
 </head>
 
@@ -47,10 +48,10 @@
                 <div class="dia-main-menu-item float-right">
                     <nav class="dia-main-navigation  clearfix ul-li">
                         <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                            <li><a class="nav-link" href="#dia-banner">Home</a></li>
-                            <li><a class="nav-link" href="#dia-service">Services</a></li>
-                            <li><a class="nav-link" href="#dia-about">About Us</a></li>
-                            <li><a class="nav-link" href="#dia-team">Our Team</a></li>
+<!--                            <li><a class="nav-link" href="#dia-banner">Home</a></li>-->
+<!--                            <li><a class="nav-link" href="#dia-service">Services</a></li>-->
+<!--                            <li><a class="nav-link" href="#dia-about">About Us</a></li>-->
+<!--                            <li><a class="nav-link" href="#dia-team">Our Team</a></li>-->
                             <li><a class="nav-link" href="#dia-footer">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -83,98 +84,276 @@
     <!-- End of header section
         ============================================= -->
 
-
-
-
-    <!-- Start of Form (Agent Creation)  section
+    <br/>
+    <br/>
+    <!-- Start of Form (Agent Creation) section
         ============================================= -->
-
-    <section id='agent-creation-form' class="agent-creation-form-section container-fluid">
+    <section id="dia-service" class="dia-service-section">
         <div class="container">
-            <div class="row" form-wrapper>
-                <div class="col-md-8 left-side-form">
-
-                    <!-- Back to Home Button -->
-                    <div class="go-home">
-                        <a href="/src/index.html">
-                            <i class="fas fa-arrow-left"></i>
-                            <span>
-                                <p>Back to Home</p>
-                            </span>
-                        </a>
-                    </div>
-
-                    <!-- FORM HEADER -->
-                    <h2 id="header-text">Get Started</h2>
-                    <div class="divider"></div>
-                    <p class="sub-header-text">
-                        Take a few minutes to fill in our information and we'll get in touch with you.
-                    </p>
-
-                    <br />
-                    <!-- FORM FOR CREATION -->
-                    <form>
-                        <div class="form-group">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" class="form-control" id="fullname" aria-describedby="fullname"
-                                placeholder="Fullname">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email"
-                                placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="text" class="form-control" id="phone" aria-describedby="phone"
-                                placeholder="Phone number">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="gender">Gender</label>
-                            <div class="row radio-group">
-                                <div class="col-md-6">
-                                    <label class="radio">Male
-                                        <input type="radio" checked="checked" name="is_male">
-                                        <span class="checkround"></span>
-                                    </label>
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="radio">Female
-                                        <input type="radio" name="is_female">
-                                        <span class="checkround"></span>
-                                    </label>
+            <ul style="width: 400px; display: flex; justify-content: space-between; height: 40px; margin: auto;" class="nav nav-tabs" role="tablist">
+                <li class="nav-item" role="presentation"><a class="nav-link active" href="#tab-01" aria-controls="tab-01" role="tab" data-toggle="tab">Merchant Creation</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tab-02" aria-controls="tab-02" role="tab" data-toggle="tab">Aggregrator Registration</a></li>
+            </ul>
+            <br/>
+            <br/>
+            <div class="tab-content">
+       <!--   START OF FIRST TAB CONTENT (MERCHANT CREATION)   -->
+                <div role="tabpanel" class="tab-pane active" id="tab-01">
+                    <div class="dia-service-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <a href="../../index.html" id="go-home">
+                                    <div id="flex-back-button">
+                                        <i class="fas fa-arrow-left"></i>
+                                        <div id="btn-text-wrapper">
+                                            <p id="back-to-home-text">Back to Home</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dia-service-img position-relative">
+                                    <img src="../../assets/img/d-agency/service/s11.png" alt="">
+                                    <div class="dia-service-shape dia-service-shape1 position-absolute"><img src="../../assets/img/d-agency/service/s2.png" alt=""></div>
+                                    <div class=" dia-service-shape dia-service-shape2 position-absolute"><img src="../../assets/img/d-agency/service/s3.png" alt=""></div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="dia-service-text">
 
-                        <div class="form-group">
-                            <label for="state">State</label>
-                           <div>
-                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg">
-                                <option selected>Select State</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                           </div>
+                                    <!-- FORM HEADER -->
+                                    <h2 id="header-text">Get Started</h2>
+                                    <div class="divider"></div>
+                                    <p id="sub-header-text">
+                                        Take a few minutes to fill in our information and we'll get in touch with you.
+                                    </p>
+
+                                    <br />
+                                    <!-- FORM FOR CREATION -->
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="fullname">Full Name</label>
+                                            <input type="text" class="form-control" id="fullname" aria-describedby="fullname"
+                                                   placeholder="First name & Last name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email Address</label>
+                                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                                   placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone">Phone Number</label>
+                                            <input type="text" class="form-control" id="phone" aria-describedby="phone"
+                                                   placeholder="Phone number">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="gender">Gender</label>
+                                            <div class="row radio-group">
+                                                <div class="col-md-6">
+                                                    <label id="radio-btn1"  class="radio">Male
+                                                        <input type="radio" checked name="is_male">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label id="radio-btn2" class="radio">Female
+                                                        <input type="radio" name="is_male">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="state">State</label>
+                                            <div>
+                                                <select id="state-select" class="form-select" aria-label=".form-select-lg">
+                                                    <option selected>Select State</option>
+                                                    <option>ABUJA FCT</option>
+                                                    <option>ABIA</option>
+                                                    <option>ADAMAWA</option>
+                                                    <option>AKWA IBOM</option>
+                                                    <option>ANAMBRA</option>
+                                                    <option>BAUCHI</option>
+                                                    <option>BAYELSA</option>
+                                                    <option>BENUE</option>
+                                                    <option>BORNO</option>
+                                                    <option>CROSS RIVER</option>
+                                                    <option>DELTA</option>
+                                                    <option>EBONYI</option>
+                                                    <option>EDO</option>
+                                                    <option>EKITI</option>
+                                                    <option>ENUGU</option>
+                                                    <option>GOMBE</option>
+                                                    <option>IMO</option>
+                                                    <option>JIGAWA</option>
+                                                    <option>KADUNA</option>
+                                                    <option>KANO</option>
+                                                    <option>KATSINA</option>
+                                                    <option>KEBBI</option>
+                                                    <option>KOGI</option>
+                                                    <option>KWARA</option>
+                                                    <option>LAGOS</option>
+                                                    <option>NASSARAWA</option>
+                                                    <option>NIGER</option>
+                                                    <option>OGUN</option>
+                                                    <option>ONDO</option>
+                                                    <option>OSUN</option>
+                                                    <option>OYO</option>
+                                                    <option>PLATEAU</option>
+                                                    <option>RIVERS</option>
+                                                    <option>SOKOTO</option>
+                                                    <option>TARABA</option>
+                                                    <option>YOBE</option>
+                                                    <option>ZAMFARA</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="money-agent">Are you an existing mobile money agent?</label>
+                                            <div class="row radio-group">
+                                                <div class="col-md-6">
+                                                    <label id="radio-btn3"  class="radio">Yes
+                                                        <input type="radio" checked name="is_money_agent">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label id="radio-btn4" class="radio">No
+                                                        <input type="radio" name="is_money_agent">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button id="submit-btn" type="submit">Submit</button>
+                                    </form>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="lga">Local Government</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    </div>
                 </div>
 
-                <div class="col-md-4 right-side-image">
+       <!--   END OF FIRST TAB CONTENT    -->
 
+
+
+       <!--   START OF SECOND TAB CONTENT  (AGGREGATOR REG)   -->
+                <div role="tabpanel" class="tab-pane" id="tab-02">
+                    <div class="dia-service-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <a href="../../index.html" id="go-home2">
+                                    <div id="flex-back-button2">
+                                        <i class="fas fa-arrow-left"></i>
+                                        <div id="btn-text-wrapper2">
+                                            <p id="back-to-home-text2">Back to Home</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dia-service-img position-relative">
+                                    <img src="../../assets/img/d-agency/service/s11.png" alt="">
+                                    <div class="dia-service-shape dia-service-shape1 position-absolute"><img src="../../assets/img/d-agency/service/s2.png" alt=""></div>
+                                    <div class=" dia-service-shape dia-service-shape2 position-absolute"><img src="../../assets/img/d-agency/service/s3.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="dia-service-text">
+                                    <!--                            <a href="/src/index.html" id="go-home">-->
+                                    <!--                                <div id="flex-back-button">-->
+                                    <!--                                    <i class="fas fa-arrow-left"></i>-->
+                                    <!--                                    <div id="btn-text-wrapper">-->
+                                    <!--                                        <p id="back-to-home-text">Back to Home</p>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </div>-->
+                                    <!--                            </a>-->
+
+                                    <!-- FORM HEADER -->
+                                    <h2 id="header-text2">Get Started</h2>
+                                    <div class="divider"></div>
+                                    <p id="sub-header-text2">
+                                        Take a few minutes to fill in our information and we'll get in touch with you.
+                                    </p>
+
+                                    <br />
+                                    <!-- FORM FOR CREATION -->
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="business">Business Name</label>
+                                            <input type="text" class="form-control" id="business" aria-describedby="business"
+                                                   placeholder="Registered Business Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="description">Business Description</label>
+<!--                                            <input type="text" class="form-control" id="description" aria-describedby="description"-->
+<!--                                                   placeholder="Business description">-->
+                                            <textarea class="span6" rows="3" placeholder="Business Description" required></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone2">Phone Number</label>
+                                            <input type="text" class="form-control" id="phone2" aria-describedby="phone"
+                                                   placeholder="Phone number">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="address">Address</label>
+                                            <input type="text" class="form-control" id="address" aria-describedby="address"
+                                                   placeholder="Enter your address">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="merchant">Are you a merchant?</label>
+                                            <div class="row radio-group">
+                                                <div class="col-md-6">
+                                                    <label id="agg-radio-btn"  class="radio">Yes
+                                                        <input type="radio" checked name="is_merchant">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label id="agg-radio-btn2" class="radio">No
+                                                        <input type="radio" name="is_merchant">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="pos">Number of POS needed?</label>
+                                            <div class="row radio-group">
+                                                <div class="col-md-6">
+                                                    <label id="agg-radio-btn3"  class="radio">Yes
+                                                        <input type="radio" checked name="pos">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label id="agg-radio-btn4" class="radio">No
+                                                        <input type="radio" name="pos">
+                                                        <span class="checkround"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button id="agg-submit-btn" type="submit">Submit Application</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+       <!--   END OF SECOND TAB CONTENT    -->
+            </div>
     </section>
-
-    <!-- End of Form (Agent Creation)  section
+    <!-- End of Form (Agent Creation) section
         ============================================= -->
+
 
 
 
