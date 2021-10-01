@@ -273,25 +273,25 @@ theme.
     width: 5px;
     height: 5px;
     left: 20px;
-    background-color: #4ce7f3;
+    background-color: #EC6B2F;
   }
   .eight-section-title .square-shape i:nth-child(2) {
     width: 10px;
     left: 28px;
     height: 10px;
-    background-color: #4ce7f3;
+    background-color: #FECE05;
   }
   .eight-section-title .square-shape i:nth-child(3) {
     height: 17px;
     width: 17px;
-    background-color: #7c0dbe;
+    background-color: #EC6B2F;
   }
   .eight-section-title .square-shape i:nth-child(4) {
     top: 10px;
     left: 10px;
     width: 12px;
     height: 12px;
-    background-color: #ff00d6;
+    background-color: #2A9A4E;
   }
 
   .eight-section-title p {
@@ -1865,6 +1865,7 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
   background-color: white;
   box-shadow: 0px 5px 15px -14px rgba(0, 0, 0, 0.75);
+  border-radius: 15px
 }
 
 .ei-faq-section .ei-faq-queans .ei-faq-header button {
@@ -1881,7 +1882,7 @@ Sticky Menu
 .ei-faq-section .ei-faq-queans .ei-faq-header button:before {
   top: -6px;
   left: 0;
-  color: #118bfc;
+  color: #EC6B2F;
   font-size: 30px;
   content: "";
   font-weight: 900;
