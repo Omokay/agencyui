@@ -13384,7 +13384,7 @@ Sticky Menu
 .dia-section-title span,
 .dia-banner-section .dia-banner-content .dia-banner-tag {
   font-weight: 700;
-  background-image: linear-gradient(81deg, #ff6600 0%, #ff9903 75%, #ffcb05 100%);
+  background-image: linear-gradient(81deg, #000 0%, #000 75%, #000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
