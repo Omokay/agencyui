@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ab0859-cfca-44ed-a0f1-08131d9a801c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/Home-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/app-landing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/business-4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/digital-agency-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/digital-agency.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/digital-marketing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/flaticon-10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/flaticon-11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/flaticon-9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/nicepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/Untitled-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/nicepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/agentCreation/agentCreation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agentCreation/agentCreation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/login.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/privacy/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/terms&amp;cond/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms&amp;cond/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/Home-1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/nicepage.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +39,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634212856600</updated>
-      <workItem from="1634212859837" duration="11055000" />
+      <workItem from="1634212859837" duration="11557000" />
+      <workItem from="1634239652573" duration="552000" />
     </task>
     <servers />
   </component>
@@ -71,6 +57,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
