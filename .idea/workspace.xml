@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ab0859-cfca-44ed-a0f1-08131d9a801c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Asset 3-8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/Untitled-3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/agentCreation/agentCreation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agentCreation/agentCreation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/login.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/privacy/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy/privacy.html" afterDir="false" />
